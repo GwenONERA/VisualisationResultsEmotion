@@ -136,8 +136,8 @@ if N == 10:
     vertical_offsets[4] = -3.5
     vertical_offsets[6] = -3.5
     # Bas : indices 1 (bottom-right) et 9 (bottom-left) décalés vers le haut
-    vertical_offsets[1] = +3.5
-    vertical_offsets[9] = +3.5
+    vertical_offsets[1] = +2
+    vertical_offsets[9] = +2
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # 4.  FIGURE
@@ -211,4 +211,4 @@ plt.savefig(output_filename,
 
 plt.show()
 
-print(f"\n✅  {N} phrases directement reliées à {EMOTION_LABEL}.")
+print(f"\n {N} phrases directement reliées à {EMOTION_LABEL}.")
